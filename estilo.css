@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background:whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(6, 50, 83, 0.918);
+        
+    }
+    
+    header{
+        background: rgb(131, 86, 41);
+        width: 100%;
+        clear: both;
+        content: '';
+        display: table;
+        
+    }
+    
+    .menu{
+        width: 900px;
+        margin: 0 auto;
+        
+    }
+    
+    img{
+        width: 120px;
+        width: 25px;
+        float: left;
+        padding: 5px;
+    
+    }
+    
+    nav{
+        float: right;
+    }
+    
+    nav ul li{
+        list-style: none;
+        margin-left: 90px;
+        padding: 25px 0;
+        float: left;
+        position: relative;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #661B0B;
+        font-weight: bold;
+    }
+    
+    nav ul li a::before{
+        display: block;
+        content: '';
+        width: 0%;
+        background: black;
+        height: 5px;
+        top: 0;
+        position: absolute;
+        
+        
+    }
+    
+    nav ul li a:hover::before{
+        width: 100%;
+    }
+    
+    header i {
+        font-size: 50px;
+        align-self: center;
+        padding: 5px;
+    }
+    
+    p {
+        height: 50px;
+        font-weight: bold;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: -10px;
+        right: -140px;
+        font-family: monospace;
+        font-style: normal;
+    }
+    
+    img{
+        float: left;
+        width: 500px;
+    }
+    
+    button {
+        text-decoration: none;
+        color: #661B0B;
+        font-weight: bold;
+        background-color:  rgb(131, 86, 41);
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        box-sizing: border-box;
+        right: -50px;
+    }
+    
+    .fixed {
+        position: fixed;
+        top: 0;
+    }
+    
+    .info {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: oblique;
+        font-weight: 550;
+    }
+    
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline rgb(13, 68, 40);
+        font-size: 29px;
+        text-shadow: 1px 1px 1px seagreen;
+    }
